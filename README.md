@@ -4,10 +4,10 @@
 ---
 ## Ảnh minh họa
 ![MinhHoa](anh.jpg)
-![MinhHoa](anh1.jpg)
-![MinhHoa](anh2.jpg)
-![MinhHoa](anh3.jpg)
-![MinhHoa](anh4.jpg)
+![MinhHoa](anh1.png)
+![MinhHoa](anh2.png)
+![MinhHoa](anh3.png)
+![MinhHoa](anh4.png)
 
 ## 📱 Tính năng chính
 - Hiển thị ảnh bìa và ảnh đại diện.
