@@ -1,10 +1,25 @@
-﻿# Mobile_BT1
- Profile Android giới thiệu Phạm Quang Vinh – Sinh viên năm 3 Ngành An toàn thông tin.
- # Ảnh chụp màn hình
- <img width="392" height="820" alt="image" src="https://github.com/user-attachments/assets/94b56a80-48cd-41b3-91f2-e88cec0fb382" />
+﻿# Hồ Sơ Cá Nhân
+  
+Hiển thị thông tin cá nhân của sinh viên, bao gồm ảnh đại diện, ảnh bìa, thông tin hồ sơ và mô tả ngắn gọn.
 
-# Cài đặt & Chạy
-1. Cài đặt Android Studio
-2. Clone repo và mở thư mục gốc bằng Android Studio.
-3. Chọn AVD (Device Manager → Create device…) hoặc điện thoại thật rồi Run ▶.
+---
+## Ảnh minh họa
+![MinhHoa](anh.jpg)
 
+## 📱 Tính năng chính
+- Hiển thị ảnh bìa và ảnh đại diện.
+- Trình bày thông tin:
+  - Họ và tên
+  - MSSV
+  - Ngày sinh
+  - Email
+  - Mô tả cá nhân
+- Giao diện tối giản, dễ nhìn, sử dụng Material Components.
+
+---
+
+## 🧩 Công nghệ sử dụng
+- **Ngôn ngữ:** Kotlin  
+- **Giao diện:** XML Layout  
+- **AndroidX + Material Design**  
+- **Gradle (KTS)**
