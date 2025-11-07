@@ -1,10 +1,13 @@
-﻿# Hồ Sơ Cá Nhân
-  
-Hiển thị thông tin cá nhân của sinh viên, bao gồm ảnh đại diện, ảnh bìa, thông tin hồ sơ và mô tả ngắn gọn.
+# 📱 Bài Tập Android – Baitap01  
+Ứng dụng Android đơn giản gồm các yêu cầu: hiển thị thông tin sinh viên, ẩn thanh tiêu đề, xử lý mảng số, xử lý chuỗi.
 
 ---
 ## Ảnh minh họa
 ![MinhHoa](anh.jpg)
+![MinhHoa](anh1.jpg)
+![MinhHoa](anh2.jpg)
+![MinhHoa](anh3.jpg)
+![MinhHoa](anh4.jpg)
 
 ## 📱 Tính năng chính
 - Hiển thị ảnh bìa và ảnh đại diện.
