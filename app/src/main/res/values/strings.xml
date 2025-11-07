@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Profile</string>
+
+    <string name="avatar_desc">Avatar</string>
+
+    <string name="label_full_name">Họ và tên</string>
+    <string name="label_student_id">MSSV</string>
+    <string name="label_dob">Ngày sinh</string>
+    <!--<string name="label_phone">SĐT</string>-->
+    <string name="label_email">Email</string>
+    <string name="label_about">Mô tả</string>
+
+    <!-- dữ liệu của Lê Trương Hồng Phước -->
+    <string name="full_name">Lê Trương Hồng Phước</string>
+    <string name="student_id">23162077</string>
+    <string name="dob">01/10/2005</string>
+    <!-- không dùng SĐT -->
+    <string name="email">23162077@student.hcmute.edu.vn</string>
+    <string name="about">Sinh viên năm 3 ngành An toàn thông tin</string>
+</resources>
