@@ -1,4 +1,4 @@
-package com.quangvinh.bt1
+package com.hongphuoc.bt1
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.quangvinh.bt1">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.hongphuoc.bt1">
 
     <application
         android:allowBackup="true"
@@ -15,6 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ArrayActivity" />
+        <activity android:name=".StringActivity" />
     </application>
 
 </manifest>

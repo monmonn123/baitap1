@@ -1,22 +1,31 @@
-package com.quangvinh.bt1
+package com.hongphuoc.bt1
 
+import android.content.Intent
 import android.os.Bundle
-import android.view.Window
-import android.view.WindowManager
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_menu)
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE)
-        window.setFlags(
-            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN
-        )
-        supportActionBar?.hide()
+        val btnPersonalInfo = findViewById<Button>(R.id.btnPersonalInfo)
+        btnPersonalInfo.setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
+        }
 
-        setContentView(R.layout.activity_main)
+        val btnArray = findViewById<Button>(R.id.btnArray)
+        btnArray.setOnClickListener {
+            val intent = Intent(this, ArrayActivity::class.java)
+            startActivity(intent)
+        }
 
+        val btnString = findViewById<Button>(R.id.btnString)
+        btnString.setOnClickListener {
+            val intent = Intent(this, StringActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

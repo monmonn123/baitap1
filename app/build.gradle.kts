@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.quangvinh.bt1"
+    namespace = "com.hongphuoc.bt1"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.quangvinh.bt1"
+        applicationId = "com.hongphuoc.bt1"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -43,6 +43,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation("de.hdodenhof:circleimageview:3.1.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
